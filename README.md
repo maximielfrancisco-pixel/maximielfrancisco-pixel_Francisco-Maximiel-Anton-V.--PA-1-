@@ -80,7 +80,6 @@ print("Resulting list:", swap_bookends(user_input))
 ##### Step-by-Step Procedure of Functions:
 - `first, *middle, last = items` → converts the first name to lowercase and removes all internal spaces.
 - `[last] + middle + [first]` → converts the last name to lowercase and removes all internal spaces.
-- `a + "." + b` → joins the cleaned first name and last name with a period in between.
 - `input(...).split(",")` → takes comma-separated user inputs and splits them into a Python list.
 - `print("Resulting list:", ...)` → executes the swap function and displays the reordered list.
 
